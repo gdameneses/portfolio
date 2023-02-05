@@ -10969,32 +10969,6 @@ body {
   font-weight: 700;
 }
 
-.back-top {
-  display: flex;
-  align-items: center;
-  background-color: rgba(220, 220, 220, 1);
-  border: 1px solid rgba(80, 80, 80, 1);
-  border-bottom-width: thick;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  box-shadow: 1px 1px 1px rgba(40, 40, 40, 0.4);
-  justify-content: center;
-  position: fixed;
-  bottom: 1rem;
-  right: 2rem;
-  z-index: 1;
-}
-
-.arrow {
-  height: 32px;
-  width: 32px;
-  background-image: url(arrow-up.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 /* Hero */
 .hero {
   background-image: url(../images/hero-bg.png);
@@ -11002,10 +10976,6 @@ body {
   background-size: cover;
   background-position: left;
   padding: 2rem;
-}
-
-.hero span {
-  font-size: 18px;
 }
 
 /* Header */
@@ -11057,7 +11027,7 @@ body {
   flex-shrink: 0;
   position: absolute;
   height: 48px;
-  background-image: url(https://i.imgur.com/8wfN38f.png);
+  background-image: url(../images/tape.png);
   width: 120%;
   transition: width 0.5s;
 }
@@ -11082,7 +11052,7 @@ body {
 }
 
 .about .container-title {
-  background-image: url(stroke1.png);
+  background-image: url(images/stroke1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: left;
@@ -11207,7 +11177,11 @@ body {
 }
 
 .linkedin-icon {
-  background-image: url(https://svgshare.com/i/q3D.svg);
+  background-image: url(../icons/linkedin-original.svg);
+}
+
+.whats-icon {
+  background-image: url(../icons/whatsapp.svg);
 }
 
 .mail-icon {
@@ -11215,7 +11189,7 @@ body {
 }
 
 .gh-icon {
-  background-image: url(https://svgshare.com/i/q3C.svg);
+  background-image: url(../icons/github.svg);
 }
 
 .footer {
@@ -11237,7 +11211,7 @@ body {
 }
 
 .divisor.runr {
-  background-image: url(https://i.imgur.com/aSpNgap.png);
+  background-image: url(../images/runr-tape.png);
 }
 
 @media (min-width: 992px) {
