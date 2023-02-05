@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
@@ -13,13 +13,13 @@
       <h4>GUSTAVO MENESES</h4>
     </div>
     <div class="navigation d-flex">
-      <a href="#" class="navbar-item">Home</a>
-      <a href="#" class="navbar-item">About me</a>
-      <a href="#" class="navbar-item">Projects</a>
-      <a href="#" class="navbar-item">Get in touch</a>
+      <a href="#home" class="navbar-item">Home</a>
+      <a href="#about" class="navbar-item">About me</a>
+      <a href="#projects" class="navbar-item">Projects</a>
+      <a href="#contact" class="navbar-item">Get in touch</a>
     </div>
   </section>
-<section class="hero container-fluid">
+<section class="hero container-fluid" id="home">
   <div class="container d-flex justify-content-around flex-column flex-lg-row">
     <div class="wrapper col-12 col-lg-6">
       <div class="header">
@@ -48,7 +48,7 @@
     </div>
   </div>
 
-  <section class="about container-fluid">
+  <section class="about container-fluid" id="about">
     <div class="container d-flex container pt-4 pb-4 flex-column flex-lg-row">
         <div class="title col-12 col-lg-4 d-block text-start mb-4">
           <div class="container-title">Who am I...</div>
@@ -66,13 +66,13 @@
     </div>
   </section>
 
-  <section class="projects container-fluid">
+  <section class="projects container-fluid" id="projects">
     <div class="container d-flex justify-content-between container pt-4 pb-4 flex-column">
       <div class="title d-block text-start mb-4">
         <span class="container-title">Projects</span>
       </div>
       <div class="cards-wrapper col-12">
-        <div class="card d-flex flex-column flex-lg-row">
+        <div class="card d-flex flex-column flex-lg-row" id="mobbilar">
           <div class="thumbnail image-fluid col-12 col-lg-5">
             <img src="https://i.imgur.com/UkDMwVI.png" alt="">
 
@@ -97,9 +97,9 @@
           </div>
 
         </div>
-        <div class="card d-flex flex-column flex-lg-row">
+        <div class="card d-flex flex-column flex-lg-row" id="runr">
           <div class="thumbnail image-fluid col-12 col-lg-5">
-            <img src="https://via.placeholder.com/1920x1080" alt="">
+            <img src="https://i.imgur.com/P5oR11s.png" alt="">
 
           </div>
           <div class="d-flex flex-column justify-content-between">
@@ -115,7 +115,7 @@
               </div>
             </div>
             <div class="card-links col-12 d-flex justify-content-end">
-              <a href="/runr" class="card-button">See more</a>
+              <a href="#projects" class="card-button">In progress...</a>
               <a href="https://www.github.com/gdameneses/runr" class="card-button" target="_blank">Check code &lt / &gt</a>
             </div>
           </div>
@@ -125,7 +125,7 @@
     </div>
   </section>
 
-    <section class="contact container-fluid">
+    <section class="contact container-fluid" id="contact">
       <div class="container pt-4 pb-4 d-flex flex-column flex-lg-row justify-content-between">
         <div class="form col-12 col-lg-6">
           <div class="title text-start mb-4">
@@ -147,16 +147,15 @@
             <span class="container-title title-second">Other ways...</span>
           </div>
           <div class="medias d-flex flex-wrap justify-content-between">
-            <a href=""><i class="linkedin-icon icon"></i></a>
-            <a href=""><i class="gh-icon icon"></i></a>
-            <a href=""><i class="whats-icon icon"></i></a>
-            <a href=""><i class="mail-icon icon"></i></a>
+            <a href="https://www.linkedin.com/in/gdameneses/"><i class="linkedin-icon icon"></i></a>
+            <a href="https://www.github.com/gdameneses/"><i class="gh-icon icon"></i></a>
+            <a href="mailto:gdameneses@gmail.com"><i class="mail-icon icon"></i></a>
           </div>
         </div>
       </div>
     </section>
     <section class="footer">
-      <h5>- Developed by Gustavo Meneses -</h5>
+      <h5>gdameneses@gmail.com</h5>
     </section>
 
 </body>
